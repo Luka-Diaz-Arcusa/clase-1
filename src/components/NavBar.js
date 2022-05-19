@@ -1,5 +1,8 @@
+import CartWidget from "./CartWidget";
+
 const  NavBar = () => {
     return (
+      <> 
       <div className="NavBar">
         <header>
         <h1> Luka tienda </h1>
@@ -9,8 +12,11 @@ const  NavBar = () => {
         <a href="https://twitter.com/home">Categoria 3</a>
         <a href="https://twitter.com/home">Register</a>
         <a href="https://twitter.com/home">Login</a>
+        <CartWidget/>
+        <p>4</p>
         </header>
       </div>
+      </>
     );
   }
   

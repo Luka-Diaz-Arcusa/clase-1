@@ -10,3 +10,10 @@ a {
   color: black;
   margin: .5rem;
 }
+.CartWidget, p{
+  display: inline-block;
+
+}
+.cartWidgetImg {
+  width: 1.5rem;
+}
